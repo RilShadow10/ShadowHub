@@ -1,0 +1,8 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+if game.PlaceId == 108533757090220 or game.PlaceId == 123516946198836 then
+    -- garden tower defense
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/05ccf762a62e738a7dd68f2d72f0c0fe.lua"))()
+end
